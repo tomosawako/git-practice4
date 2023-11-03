@@ -6,7 +6,7 @@ def after_sign_in_path_for(resource)
 end
 
 def after_sign_out_path_for(resource)
-  homes_about_path
+  about_path
 end
 
  protected
